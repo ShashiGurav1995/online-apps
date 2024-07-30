@@ -22,11 +22,11 @@ h1 {
 #root {
   height: 100vh;
   display: flex;
+  position: relative;
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
   gap: 15px;
-  position: relative;
 }
 
 #root::before {
